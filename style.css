@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:  Georgia, serif;
+}
+.container{
+	
+	display: flex;
+	justify-content: center;
+flex: auto;
+}
+form{
+	width:500px;
+	background-color: rgb(178, 190, 190);
+	margin-top: 10%;
+}
+input,label{
+	width: 100%;
+	margin-left:100px;
+
+}
+h2{
+	text-align: center;
+	color: rgb(56, 12, 12);
+}
+input{
+	width: 70%;
+	padding: 12px;
+
+	/* margin: 12px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+label{
+	margin-top: 80px;
+	margin-left: 100px;
+}
+input[type="checkbox"]{
+	width:100px;
+	display: inline;
+}
+input[type="submit"]{
+width: 200px;
+margin-left: 12%;
+color: aliceblue;
+background-color: rgb(7, 7, 19);
+}
